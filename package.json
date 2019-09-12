@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-js",
+  "version": "1.0.0",
+  "description": "A runtime environment for learning javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/findlay-hannam/intro-to-js.git"
+  },
+  "author": "Findlay Hannam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/findlay-hannam/intro-to-js/issues"
+  },
+  "homepage": "https://github.com/findlay-hannam/intro-to-js#readme"
+}
