@@ -1,0 +1,45 @@
+/* Select by tag name */
+h1 {
+  color: rgb(10, 56, 184);
+}
+
+table {
+  margin: auto;
+  border: 1px solid black;
+}
+
+/* Select by class name */
+.cat {
+  width: 400px;
+}
+
+.mini-cat {
+  width: 100px;
+  transition: width 0.3s ease;
+}
+
+/* Select by ID */
+#container {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 8px;
+  background-color: rgb(94, 188, 231);
+}
+
+/* Child selector */
+ul > li {
+  color: yellow;
+}
+
+.link-container {
+  height: 150px;
+}
+.link-container > a {
+  vertical-align: middle;
+}
+/* Hover selector */
+.link-container > a:hover > .mini-cat {
+  width: 150px;
+  margin-top: 0px;
+}
+
