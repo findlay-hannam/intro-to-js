@@ -4,7 +4,7 @@
   "description": "A runtime environment for learning javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha **/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/findlay-hannam/intro-to-js/issues"
   },
-  "homepage": "https://github.com/findlay-hannam/intro-to-js#readme"
+  "homepage": "https://github.com/findlay-hannam/intro-to-js#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  }
 }
