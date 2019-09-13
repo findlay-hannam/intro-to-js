@@ -1,0 +1,1 @@
+// This function uses duck-typing to tell what kind of vehicle an input is

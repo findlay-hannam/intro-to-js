@@ -14,6 +14,26 @@ function isAllNumbers(input) {
   return false;
 }
 
+function isChar(char) {
+  return typeof char === 'string' && char.length === 1;
+}
+const vowelMap = {
+  a: true,
+  e: true,
+  i: true,
+  o: true,
+  u: true,
+};
+
+/* This function takes a character and returns true if the character is a vowel */
+function isVowel(char) {
+  if (!isChar(char)) {
+    return false;
+  }
+  return vowelMap[char];
+}
+
 module.exports = {
   isAllNumbers,
+  isVowel,
 };

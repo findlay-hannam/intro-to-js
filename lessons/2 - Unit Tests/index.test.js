@@ -1,8 +1,13 @@
 const assert = require('assert');
-const { isAllNumbers } = require('./');
+const { isAllNumbers, isVowel } = require('./');
 
 describe(__filename, () => {
-  it('passes a simple test', () => {
-    assert.equal(true, isAllNumbers([1]));
+  describe('isAllNumbers', () => {
+    it('passes a simple test', () => {
+      assert.equal(true, isAllNumbers([1]));
+    });  
+  });
+  describe('isVowel', () => {
+
   });
 });
