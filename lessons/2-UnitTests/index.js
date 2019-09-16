@@ -30,7 +30,7 @@ function isVowel(char) {
   if (!isChar(char)) {
     return false;
   }
-  return vowelMap[char];
+  return !!vowelMap[char];
 }
 
 module.exports = {
