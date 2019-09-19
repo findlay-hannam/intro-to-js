@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha **/*.test.js",
+    "demo1": "open lessons/1-TheDOM/demo/index.html",
     "lesson1": "open lessons/1-TheDOM/index.html",
     "lesson2": "mocha lessons/2-UnitTests/*.test.js",
     "lesson3": "mocha lessons/3-TDD/*.test.js",
