@@ -18,11 +18,15 @@ function mockBadApiCall() {
 }
 
 function getFirstNumberFromServer() {
-  return Promise.resolve({ status: 200, data: 108 });
+  return new Promise(resolve => {
+    setTimeout(() => resolve({ status: 200, data: 108 }), 108);
+  });
 }
 
 function getSecondNumberFromServer() {
-  return Promise.resolve({ status: 200, data: 9001 });
+  return new Promise(resolve => {
+    setTimeout(() => resolve({ status: 200, data: 9001 }), 200);
+  });
 }
 
 module.exports = { mockBadApiCall, mockApiCall, getFirstNumberFromServer, getSecondNumberFromServer };
