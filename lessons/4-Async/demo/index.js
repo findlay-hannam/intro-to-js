@@ -1,4 +1,4 @@
-const { mockApiCall, mockBadApiCall } = require('../api');
+// const { mockApiCall, mockBadApiCall } = require('../api');
 
 setTimeout(() => { console.log('Within timeout')}, 0);
 
