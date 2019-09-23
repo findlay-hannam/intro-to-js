@@ -6,6 +6,7 @@ describe(__filename, () => {
     const car = {
       wheels: 4,
       treads: false,
+      engine: true,
     };
   });
 });
