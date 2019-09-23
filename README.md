@@ -1,1 +1,2 @@
 # intro-to-js
+There are lessons and demo code in the `lessons` directory. You can run the lessons code using NPM - for example, `npm run lesson1` will open the HTML page you're working on. You can also run the demos where available - for example, `npm run demo1` will open the demo html document.
